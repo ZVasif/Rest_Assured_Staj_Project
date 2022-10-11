@@ -121,7 +121,7 @@ public class Grade_test {
 
                     .then()
                     .log().body()
-                    .statusCode(200)
+                    .statusCode(204)
                   ;
 
         }
